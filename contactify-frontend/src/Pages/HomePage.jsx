@@ -25,7 +25,7 @@ const HomePage = () => {
       <button type="button" onClick={loginPage} className="text-black bg-white border border-black hover:text-white hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
       <button type="button" onClick={signUpPage} className="text-white bg-blue-900 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign Up</button>
        </div>
-        <div className='font-bold text-3xl px-10 md:text-5xl md:px-52 md:py-64 py-72 text-center'>
+        <div className='font-bold text-3xl px-10 md:text-5xl md:px-52 md:py-64 pt-60 text-center'>
           <p className=''>Get a comprehensive database for<br />
           effortlessly storing, updating and accessing<br />
           your contacts<br /></p>

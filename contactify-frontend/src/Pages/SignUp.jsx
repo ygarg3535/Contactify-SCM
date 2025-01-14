@@ -73,7 +73,7 @@ const SignUp = () => {
       <div className="grid grid-cols-12 bg-gray-50 dark:bg-gray-800">
         <div className="col-span-4 md:col-span-2 lg:col-span-3 xl:col-span-4"></div>
         <div className="col-span-12 md:col-span-8 lg:col-span-6 xl:col-span-4 md:mt-2">
-          <div className="block p-6 bg-white md:border-t-8 md:border-blue-700 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-blue-700 dark:hover:bg-gray-700">
+          <div className="block p-6 md:bg-white md:border-t-8 md:border-blue-700 md:rounded-lg md:shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-blue-700 dark:hover:bg-gray-700">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               SignUp Here
             </h5>
@@ -190,7 +190,7 @@ const SignUp = () => {
                 ></textarea>
                 {errors.about && <div className="text-red-600 text-sm">{errors.about}</div>}
               </div>
-              <div className="md:mb-3 -mb-32">
+              <div className="md:mb-3 ">
                 <button className="px-3 w-full py-2 rounded bg-gray-800 text-white hover:bg-gray-900 dark:bg-blue-700 dark:hover:bg-blue-800 ">SignUp</button>
               </div>
             </form>
